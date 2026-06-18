@@ -1,0 +1,105 @@
+log_message,label
+Container terminated due to OOMKilled,oom
+Memory limit exceeded,oom
+Pod killed because of memory pressure,oom
+Application crashed with Out Of Memory error,oom
+Container restarted after memory exhaustion,oom
+OOMKilled event detected,oom
+Java process exceeded memory limit,oom
+Killed process due to memory pressure,oom
+Memory allocation failed,oom
+Container evicted because of low memory,oom
+Pod exceeded memory quota,oom
+Node reported memory pressure,oom
+Memory leak detected in application,oom
+Out of memory exception occurred,oom
+Container terminated by OOM killer,oom
+Heap space exhausted,oom
+Insufficient memory available,oom
+Memory threshold breached,oom
+Application consumed excessive memory,oom
+Pod stopped because memory usage spiked,oom
+
+Pod entered CrashLoopBackOff state,crash
+Container keeps restarting repeatedly,crash
+CrashLoopBackOff detected for service,crash
+Application startup failed causing restart loop,crash
+Pod restart threshold exceeded,crash
+Container restart loop detected,crash
+Application crashed during startup,crash
+Repeated pod restarts observed,crash
+Service stuck in CrashLoopBackOff,crash
+Container exited unexpectedly and restarted,crash
+Startup probe failed repeatedly,crash
+Pod failed health checks repeatedly,crash
+Application exited with code 1,crash
+Restart backoff timer triggered,crash
+Container initialization failed,crash
+Pod restart count increasing rapidly,crash
+Crash detected during deployment,crash
+Service continuously restarting,crash
+Application unable to start correctly,crash
+Container entered restart cycle,crash
+
+Database connection timeout,database
+Failed to connect to PostgreSQL database,database
+Database authentication failed,database
+MySQL connection refused,database
+Database unavailable during request,database
+Connection pool exhausted,database
+Unable to establish database session,database
+Database host unreachable,database
+SQL query execution timeout,database
+Database credentials invalid,database
+PostgreSQL server not responding,database
+Database connection lost,database
+Unable to open JDBC connection,database
+Database service down,database
+Transaction failed due to database error,database
+Query execution exceeded timeout,database
+Database access denied,database
+Connection to DB server interrupted,database
+Database endpoint unavailable,database
+Failed database health check,database
+
+Network unreachable error,network
+Service endpoint not reachable,network
+Connection reset by peer,network
+DNS resolution failed,network
+Network timeout occurred,network
+Unable to reach external service,network
+Packet loss detected,network
+Connection refused by remote host,network
+Gateway timeout received,network
+DNS lookup timeout,network
+Network route unavailable,network
+Failed to connect to service endpoint,network
+Socket connection error,network
+TCP handshake failed,network
+Network latency exceeded threshold,network
+Remote service unreachable,network
+Connection dropped unexpectedly,network
+Load balancer connection failure,network
+Network interface unavailable,network
+Cluster networking issue detected,network
+
+Application started successfully,healthy
+Service running normally,healthy
+Container passed readiness check,healthy
+Health check completed successfully,healthy
+No errors detected in logs,healthy
+Application initialized successfully,healthy
+Service healthy and responsive,healthy
+Pod running without issues,healthy
+Startup completed successfully,healthy
+Container operational and healthy,healthy
+All system checks passed,healthy
+Readiness probe succeeded,healthy
+Liveness probe succeeded,healthy
+Application responding normally,healthy
+Service available and healthy,healthy
+Container entered running state,healthy
+No warnings or errors found,healthy
+Workload operating normally,healthy
+Pod health status is green,healthy
+System functioning as expected,healthy
